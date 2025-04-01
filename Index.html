@@ -1,25 +1,41 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="icon" href="data:image/x-icon;,">
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script defer src="main.js"></script>
     <title>Servicios para Mascotas</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Servicios para Mascotas</h1>
-        <ul id="listaServicios"></ul>
-        
-        <div class="botones">
-            <button id="seleccionarServicio">Seleccionar Servicio</button>
-            <button id="finalizar">Finalizar Pedido</button>
+    <header>
+        <div class="container">
+            <h1>Servicios para Mascotas</h1>
+            <p>Los mejores cuidados para tu mejor amigo</p>
         </div>
+    </header>
+
+    <main class="container">
+        <section id="servicios-container">
+            <h2>Nuestros Servicios</h2>
+            <div id="listaServicios" class="servicios-grid"></div>
+        </section>
+
         
-        <div id="resumen"></div>
-    </div>
-    
+        <button id="finalizar" class="btn-finalizar">Finalizar Solicitud</button>
+        
+        <section id="resumen" class="resumen-container" style="display: none;">
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Servicios para Mascotas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
