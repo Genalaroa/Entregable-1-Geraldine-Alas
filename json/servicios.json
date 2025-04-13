@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Peluquería completa",
+        "imagen": "./imagenes/peluqueria.jpg",
+        "descripcion": "Baño, corte personalizado y limpieza de oídos",
+        "precio": 45.00
+    },
+    {
+        "id": 2,
+        "nombre": "Paseos caninos",
+        "imagen": "imagenes/paseo.jpg",
+        "descripcion": "Paseos de 45 minutos con recogida a domicilio",
+        "precio": 20.00
+    },
+    {
+        "id": 3,
+        "nombre": "Cuidado en casa",
+        "imagen": "imagenes/casa.jpg",
+        "descripcion": "Atención y cuidado de tu mascota en tu hogar mientras estás fuera",
+        "precio": 35.00
+    },
+    {
+        "id": 4,
+        "nombre": "Cuidado en finca",
+        "imagen": "imagenes/finca.jpg",
+        "descripcion": "Alojamiento de tu mascota en nuestra finca con amplios espacios verdes",
+        "precio": 50.00
+    }
+
+
+]

@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="./css/estilos.css">
     <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script defer src="main.js"></script>
+    <script defer src="./js/main.js"></script>
     <title>Servicios para Mascotas</title>
 </head>
 <body>
@@ -15,6 +15,11 @@
         <div class="container">
             <h1>Servicios para Mascotas</h1>
             <p>Los mejores cuidados para tu mejor amigo</p>
+            <div id="carrito-header" class="carrito-header">
+                <button id="toggle-carrito" class="btn-carrito">
+                    🛒 Ver carrito
+                </button>
+            </div>
         </div>
     </header>
 
@@ -24,10 +29,21 @@
             <div id="listaServicios" class="servicios-grid"></div>
         </section>
 
+        <section id="carrito-container" class="carrito-container">
         
-        <button id="finalizar" class="btn-finalizar">Finalizar Solicitud</button>
+            <button id="cerrar-carrito" class="btn-cerrar-carrito">✖</button>
+            <div id="carrito" class="carrito">        
+            </div>
+            <button id="finalizar" class="btn-finalizar">Finalizar Solicitud</button>
+        </section>
+
+ 
         
         <section id="resumen" class="resumen-container" style="display: none;">
+            <div id="resumen-carrito">
+            </div>
+        
+        </section>
 
         </section>
     </main>
