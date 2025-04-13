@@ -11,10 +11,6 @@ fetch('./json/servicios.json')
     console.error('Error al cargar servicios:', error);
   });
 
-  
-document.addEventListener('DOMContentLoaded', () => {
-    inicializarApp();
-});
 
 function inicializarApp() {
     try {
@@ -87,6 +83,7 @@ function agregarEventosAgregar() {
   }
 
   document.addEventListener('DOMContentLoaded', function() {
+    inicializarApp();
     const toggleCarritoBtn = document.getElementById('toggle-carrito');
     const carritoContainer = document.getElementById('carrito-container');
     const botonCerrarCarrito = document.getElementById('cerrar-carrito');
